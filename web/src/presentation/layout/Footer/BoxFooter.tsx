@@ -1,5 +1,5 @@
 import React from "react";
-import Logo from "../../components/Logo";
+import Logo from "../../shared/LogoComponent";
 
 function BoxFooter() {
   return (
@@ -27,7 +27,10 @@ function BoxFooter() {
           <p>Vamos Conversar</p>
         </div>
       </div>
-      <div>&copy; 2025 Almaz Connect. PR Estratégico para Agências. Todos os direitos reservados</div>
+      <div>
+        &copy; 2025 Almaz Connect. PR Estratégico para Agências. Todos os
+        direitos reservados
+      </div>
     </div>
   );
 }
