@@ -15,7 +15,7 @@ const BoxHero2: React.FC = () => {
     setProgress(((index + 1) / topics.length) * 100);
   };
   return (
-    <div className="w-full flex flex-col items-center gap-y-20 my-15 py-16 px-4 bg-[#070707]">
+    <div className="w-full flex flex-col items-center gap-y-20 py-8 px-4">
       <div className="flex text-center w-6/10 mt-10">
         <HeadLineComponent mainText="Transformando Resultados" subText="em Reconhecimento de Mercado"/>
       </div>

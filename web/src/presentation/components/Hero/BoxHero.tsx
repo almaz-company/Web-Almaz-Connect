@@ -4,8 +4,8 @@ import CTAButton from "../../shared/CTAButton";
 
 function BoxHero() {
   return (
-    <div className="w-6/10 flex flex-col items-center gap-y-5 mt-8">
-      <div className="w-full flex items-center">
+    <div className="bg-black w-full flex flex-col items-center gap-y-5 py-16">
+      <div className="w-6/8 flex items-center">
        <HeadLineComponent
         mainText="PR Estratégico"
         subText="para Agências que Querem ser Vistas pelo Mercado"

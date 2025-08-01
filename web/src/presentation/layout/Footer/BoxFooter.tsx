@@ -4,6 +4,7 @@ import Logo from "../../shared/LogoComponent";
 function BoxFooter() {
   return (
     <div className="flex flex-col items-center w-full">
+      <div></div>
       <div className="flex gap-x-42 w-8/10">
         <div>
           <Logo />

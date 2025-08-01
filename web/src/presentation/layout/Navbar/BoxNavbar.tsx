@@ -3,7 +3,7 @@ import Logo from "../../shared/LogoComponent";
 
 function BoxNavbar() {
   return (
-    <header className=" flex justify-center items-center gap-x-42 mt-8">
+    <header className="bg-black flex justify-center items-center gap-x-42 pt-8">
       <div>
         <Logo />
       </div>
