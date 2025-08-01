@@ -2,6 +2,7 @@ import React from 'react'
 import HeadLineComponent from '../../shared/HeadLineComponent'
 import Link from 'next/link';
 import {services} from './constants/index'
+import CTAButton from '../../shared/CTAButton';
 
 
 function BoxHero3() {
@@ -22,9 +23,7 @@ function BoxHero3() {
         </div>
         <div className="text-center mt-12">
           <div>
-            <a className="inline-block bg-pink-500 text-white font-semibold py-3 px-8 rounded-full hover:bg-pink-600 transition duration-300">
-              QUERO SABER COMO POSICIONAR MINHA MARCA
-            </a>
+            <CTAButton mainText="Quero Saber Como Posicionar Minha Marca"/>
           </div>
         </div>
       </div>
